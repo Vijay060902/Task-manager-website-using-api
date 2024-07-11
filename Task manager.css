@@ -1,0 +1,167 @@
+body{
+    background-color: #fff;
+    font-family: 'poppins',sans-serif;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.navbar1{
+    height:80px;
+    background:linear-gradient(to right,#299edd,#c62121);
+}
+
+.heading1{
+    color:#fff;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card{
+    border:2px solid #299edd;
+    width:300px;
+    height:300px;
+    margin:30px;
+
+}
+
+#mainDiv{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    position:relative;
+}
+
+.h1{
+    font-size: 10px;
+}
+
+.taskh{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 10px;
+    color:#299edd
+
+}
+
+.horizontaline{
+    border:1px solid #299edd;
+}
+
+.desc{
+    font-size: 20px;
+    color:#299edd;
+    margin : 10px;
+}
+.paragraph{
+    margin:10px;
+    color:#299edd
+}
+
+.createOn{
+    font-size: 20px;
+    margin:10px;
+    color:#299edd;
+    display: inline;
+}
+
+.paragraph2{
+    color:#299edd;
+    display: inline;
+    font-size: 14px;
+
+}
+
+.deleteButton{
+    margin-left: 25px;
+    margin-top: 20px;
+    width:250px;
+    height:50px;
+    color:#fff;
+    background-color: #c62121;
+    border:none;
+    border-radius: 10px;
+    font:bold;
+    cursor:pointer;
+}
+
+.updatebutton{
+    margin-left: 25px;
+    margin-top: 20px;
+    width:250px;
+    height:50px;
+    color:#fff;
+    background-color: green;
+    border:none;
+    border-radius: 10px;
+    font:bold;
+    cursor:pointer;
+}
+
+.popup{
+    display: none;
+    background-color: #fff;
+    width:500px;
+    height:500px;
+    border: 2px solid red;
+    position:absolute;
+    left:40%;
+    top:30px;
+}
+
+.updatehead{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.label{
+    font-size: 20px;
+    color:green;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.placeholder{
+    width:400px;
+    height:40px;
+    margin-left:40px;
+    margin-top: 10px;
+    text-align: center;
+    border:1px solid green;
+}
+
+.updatep{
+    display: block;
+    margin-left: 100px;
+    margin-top: 50px;
+    width:300px;
+    height:50px;
+    color:#fff;
+    background-color: green;
+    border:none;
+    border-radius: 10px;
+    font:bold;
+    cursor:pointer;
+}
+
+.close{
+    margin-left: 100px;
+    margin-top: 30px;
+    width:300px;
+    height:50px;
+    color:#fff;
+    background-color: red;
+    border:none;
+    border-radius: 10px;
+    font:bold;
+    cursor:pointer;
+}
+
+.nodata{
+    font-size: 40px;
+    color: red;
+    
+}
